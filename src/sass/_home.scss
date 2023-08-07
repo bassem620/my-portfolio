@@ -44,34 +44,6 @@
             padding-right: 15px;
         }
     }
-    .whatsappLink{
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: $sec;
-        border: 1px solid $sec;
-        border-radius: 16px;
-        padding: 7px 15px;
-        transition: $transition02;
-        svg{
-            width: 32px;
-            height: 32px;
-            transition: $transition02;
-        }
-        span{
-            padding-left: 8px;
-            font-size: 18px;
-            font-weight: 500;
-        }
-        &:hover{
-            background-color: $sec;
-            color: $main;
-            svg{
-                fill: $main !important;
-            }
-        }
-    }
 }   
 
 @media (max-width: 385px){

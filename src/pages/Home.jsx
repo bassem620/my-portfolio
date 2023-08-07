@@ -5,6 +5,7 @@ import me from '../assets/images/me.jpg';
 import WhatsappLogo from '../components/logos/WhatsappLogo';
 import LinkedInLogo from '../components/logos/LinkedInLogo';
 import GitHubLogo from '../components/logos/GitHubLogo';
+import { Btn } from '../components/index';
 
 const Home = () => {
     const LinkedInLink = "https://www.linkedin.com/in/bassemsaeed620/";
@@ -45,10 +46,7 @@ const Home = () => {
                                     <GitHubLogo color='#7B4AE2' />
                                 </Link>
                             </div>
-                            <Link target='_blank' to="https://wa.me/+201281441143" className='whatsappLink'>
-                                <WhatsappLogo color='#7B4AE2'/>
-                                <span>let's talk</span>
-                            </Link>
+                            <Btn logo={<WhatsappLogo color="#7B4AE2"/>} text="let's talk" toLink={"https://wa.me/+201281441143"}/>
                         </Col>
                     </Row>
                 </Container>
