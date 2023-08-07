@@ -1,0 +1,142 @@
+.home{
+    padding-bottom: 50px;
+    .row{
+        height: 100%;
+        position: relative;
+    }
+    .row  > div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .row > div:nth-of-type(1){
+        align-items: start;
+    }
+    .greetingsBox{
+        width: fit-content;
+        height: fit-content;
+        padding: 6px 15px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: $main50;
+        margin-bottom: 20px;
+        span{
+            color: $sec;
+            text-align: center;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+    .name{
+        span{
+            color: white;
+            display: block;
+            font-weight: 800;
+            line-height: normal;
+            font-style: normal;
+            font-size: 52px;
+        }
+    }
+    .posTitle{
+        margin-top: 7px;
+        color: $white50;
+    }
+    .myPhoto{
+        width: 80%;
+        padding: 7px;
+        border: 3px solid $sec;
+        border-radius: 100%;
+    }
+    .socialLinks{
+        margin-bottom: 15px;
+        height: 35px;
+        svg{
+            width: 30px;
+        }
+        a{
+            padding-right: 15px;
+        }
+    }
+    .whatsappLink{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $sec;
+        border: 1px solid $sec;
+        border-radius: 16px;
+        padding: 7px 15px;
+        transition: $transition02;
+        svg{
+            width: 32px;
+            height: 32px;
+            transition: $transition02;
+        }
+        span{
+            padding-left: 8px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        &:hover{
+            background-color: $sec;
+            color: $main;
+            svg{
+                fill: $main !important;
+            }
+        }
+    }
+}   
+
+@media (max-width: 385px){
+    .myPhoto{
+        max-width: 382px !important;
+        margin: 30px 0 !important;
+    }
+}
+
+@media (max-width: 767px){
+    .myPhoto{
+        max-width: 282px !important;
+        margin: 50px 0 !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .home{
+        .row{
+            height: 100%; 
+        }
+        .row > div{
+            height: 80% !important;
+            align-items: center;
+        }
+        .row > div:nth-of-type(3){
+            height: 20% !important
+        } 
+    }
+}
+
+@media (max-width: 991px) {
+    .home{
+        padding-bottom: 50px;
+        .row{
+            height: fit-content;
+        }
+        .row  > div{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .row > div:nth-of-type(1){
+            align-items: start;
+        }
+        .myPhoto{
+            max-width: 382px;
+            margin: 30px 0;
+        }
+    }
+}
