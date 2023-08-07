@@ -16,7 +16,7 @@ const Home = () => {
                     <Row className='m-0 p-0'>
                         {/* Left side */}
                         <Col md={6} lg={4}>
-                            <div className='greetingsBox'>
+                            <div className='textBox'>
                                 <span>👋 Greetings!</span>
                             </div>
                             <div className="name">

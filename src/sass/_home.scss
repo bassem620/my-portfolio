@@ -14,21 +14,6 @@
     .row > div:nth-of-type(1){
         align-items: start;
     }
-    .greetingsBox{
-        width: fit-content;
-        height: fit-content;
-        padding: 6px 15px;
-        flex-shrink: 0;
-        border-radius: 16px;
-        background: $main50;
-        margin-bottom: 20px;
-        span{
-            color: $sec;
-            text-align: center;
-            font-weight: 500;
-            font-size: 15px;
-        }
-    }
     .name{
         span{
             color: white;
