@@ -1,9 +1,18 @@
-function App() {
-  return (
-    <div className="App">
+import { Route, Routes } from "react-router-dom";
 
-    </div>
-  );
+import { Nav, Footer } from './components/index';
+import { Home } from './pages/index';
+
+function App() {
+    return (
+        <>
+        <Nav />
+        <Routes>
+            <Route index element={<Home />}/>
+        </Routes>
+        <Footer />
+        </>
+    );
 }
 
 export default App;
