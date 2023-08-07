@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 
 import { Nav, Footer } from './components/index';
-import { Home } from './pages/index';
+import PagesContainer from './pages/PagesContainer';
 
 function App() {
     return (
         <>
         <Nav />
         <Routes>
-            <Route index element={<Home />}/>
+            <Route index element={<PagesContainer />}/>
         </Routes>
         <Footer />
         </>
