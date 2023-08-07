@@ -15,7 +15,7 @@ const About = () => {
                             In addition to my current skill set, I am always eager to expand my knowledge and learn new technologies.
                         </p>
                     </Col>
-                    <Col md={6} className="education">
+                    <Col md={6} className="education pt-4 pt-md-0">
                         <div className="textBox">
                             <span>🧑‍🎓 Education</span>
                         </div>
