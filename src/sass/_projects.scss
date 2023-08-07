@@ -1,0 +1,47 @@
+.projects{
+    height: fit-content !important;
+    width: 100%;
+    .projectContainer{
+        padding: 5px !important;
+        height: 450px;
+        .box{
+            height: 100%;
+            border: 1px solid $sec;
+            border-radius: $borderRadius2;
+            padding: 12px;
+            img{
+                width: 100%;
+                height: 200px;
+                margin-bottom: 8px;
+                border: 1px solid $sec;
+                border-radius: $borderRadius2;
+            }
+            .title{
+                color: $white;
+                text-align: center;
+                height: 50px;
+            }
+            p{
+                color: $white50;
+                width: 100%;
+                height: 95px;
+                font-weight: 300;
+                margin-bottom: 8px;
+                max-height: 5 * 1.2em;
+                overflow: hidden; 
+                white-space: normal; 
+                text-overflow: ellipsis; 
+                display: -webkit-box; 
+                -webkit-line-clamp: 5; 
+                -webkit-box-orient: vertical; 
+                line-height: 1.2em; 
+            }
+            .btns{
+                margin-top: auto;
+                svg{
+                    width: 25px;
+                }
+            }
+        }
+    }
+}
