@@ -1,5 +1,6 @@
 $custom-colors : (
-    "white" : #f5f5f5,
+    "main" : #090E16,
+    "sec" : #7B4AE2
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);

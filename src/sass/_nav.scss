@@ -1,0 +1,82 @@
+
+.nav {
+    color: $white50;
+    background-color: $main;
+    width: 100%;
+    height: $navHeight;
+    position: fixed;
+    padding: 10px 0;
+
+    .navBox {
+        padding: 0 30px;
+        width: 100%;
+        height: 100%;
+        background-color: $main50;
+        border-radius: $borderRadius;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .navTitle {
+            color: white;
+            font-weight: bolder;
+            font-size: 1.2rem;
+        }
+        
+        .navLinks {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .navLink {
+                font-size: 1.08rem;
+                font-weight: 500;
+                padding: 5px 15px;
+                border-radius: $borderRadius;
+                &:hover {
+                    background-color: $grey25;
+                    color: $sec;
+                }
+                &.active {
+                    color: $sec;   
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .nav{
+        .mobileMenuToggle{
+            display: block !important;
+        }
+        .navBox {
+            padding: 0 25px;
+            .navTitle {
+                font-size: 1rem;
+            }
+            .navLinks {
+                flex-direction: column;
+                justify-content: center;
+                position: absolute;
+                top: $navHeight;
+                left: 0;
+                right: 0;
+                height: auto;
+                background-color: $main;
+                border-radius: 0;
+                display: none;
+                border-bottom: 1px solid $main50;
+                padding: 0 15px;
+                padding-bottom: 5px;
+                .navLink {
+                    width: 100%;
+                    padding: 10px;
+                    text-align: center;
+                }
+            }
+        }
+        &.active .navLinks {
+            display: flex;
+        }
+    }
+}
