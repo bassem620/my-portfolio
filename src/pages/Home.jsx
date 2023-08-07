@@ -11,7 +11,7 @@ const Home = () => {
     const GitHubLink = "https://github.com/bassem620";
 
     return (
-        <div className="home section">
+        <div className="home section" id='home'>
                 <Container className='h-100'>
                     <Row className='m-0 p-0'>
                         {/* Left side */}
