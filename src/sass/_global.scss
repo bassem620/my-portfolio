@@ -1,5 +1,5 @@
 .textBox{
-    width: fit-content;
+    width: max-content;
     height: fit-content;
     padding: 6px 15px;
     flex-shrink: 0;
@@ -18,7 +18,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     color: $sec;
     border: 1px solid $sec;
     border-radius: 16px;
@@ -26,8 +26,8 @@
     transition: $transition02;
     height: 43px;
     svg{
-        width: 32px;
-        height: 32px;
+        width: 30px !important;
+        height: 30px !important;
         transition: $transition02;
     }
     span{
@@ -40,6 +40,87 @@
         color: $main;
         svg{
             fill: $main !important;
+        }
+    }
+}
+
+.boxesSection{
+    height: fit-content !important;
+    width: 100%;
+    .boxesContainer{
+        padding: 5px !important;
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: stretch;
+            height: 100%;
+            border: 1px solid $sec;
+            border-radius: $borderRadius2;
+            padding: 12px;
+            img{
+                width: 100%;
+                min-height: 50%;
+                max-height: 60%;
+                margin-bottom: 8px;
+                border: 1px solid $sec;
+                border-radius: $borderRadius2;
+            }
+            .title{
+                color: $white;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            p{
+                color: $white50;
+                width: 100%;
+                font-weight: 300;
+                max-height: 4 * 1.2em;
+                -webkit-line-clamp: 4; 
+                overflow: hidden; 
+                white-space: normal; 
+                text-overflow: ellipsis; 
+                display: -webkit-box; 
+                -webkit-box-orient: vertical; 
+                line-height: 1.2em; 
+            }
+            .btns{
+                svg{
+                    width: 25px;
+                }
+                @media (max-width: 290px) {
+                    span{
+                        display: none !important;
+                    }
+                }
+            }
+            .timeBound{
+                color: $sec;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 5px;
+                font-weight: 500;
+            }
+            @media (max-width: 340px) {
+                .timeBound{
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            }
+        }
+        .box.experience{
+            justify-content: space-between;
+            .title{
+                flex: 0 0 auto;
+                margin-bottom: 5px;
+            }
+            p{
+                flex: 1 1 auto;
+                max-height: 12 * 1.2em !important;
+                -webkit-line-clamp: 12 !important; 
+            }
         }
     }
 }
