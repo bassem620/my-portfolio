@@ -2,7 +2,9 @@ const projects = [
     {
         id: 0,
         title: "title",
+        cardTitle: "",
         desc: "description",
+        cardDesc: "description",
         spec: "spec",
         images: "",
         links:[
