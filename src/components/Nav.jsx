@@ -61,7 +61,7 @@ const Nav = () => {
                     Projects
                     </a>
                     <a
-                    href='#experiences'
+                    href='#experience'
                     className={`navLink ${activeLink === 'experience' ? 'active' : ''}`}
                     onClick={ _ => handleNavLinkClick('experience')}
                     >
