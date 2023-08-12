@@ -2,12 +2,12 @@ import { Container, Row, Col } from "react-bootstrap"
 import { Btn } from "../components"
 import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
 
-const Experiences = () => {
+const Experience = () => {
     return (
         <div className="boxesSection section" id="experience">
             <Container>
                 <div className="textBox mx-auto mb-5">
-                    <span>🧑‍💻 Experiences</span>
+                    <span>🧑‍💻 Experience</span>
                 </div>
                 <Row className="m-0 p-0">
                     <Col sm={12} md={6} lg={4} className="boxesContainer">
@@ -35,4 +35,4 @@ const Experiences = () => {
     )
 }
 
-export default Experiences
+export default Experience

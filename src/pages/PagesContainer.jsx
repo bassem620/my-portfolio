@@ -3,7 +3,7 @@ import {
     About,
     Skills,
     Projects,
-    Experiences,
+    Experience,
     Contact
 } from './index';
 
@@ -14,7 +14,7 @@ const PagesContainer = () => {
         <About />
         <Skills />
         <Projects />
-        <Experiences />
+        <Experience />
         <Contact />
         </>
     )
