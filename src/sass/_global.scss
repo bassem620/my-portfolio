@@ -124,3 +124,14 @@
         }
     }
 }
+
+.popMsg{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    padding: 10px;
+    background-color: $sec50;
+    color: white;
+    border-radius: 5px;
+}
