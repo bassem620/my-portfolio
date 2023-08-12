@@ -8,7 +8,7 @@ function App() {
         <>
         <Nav />
         <Routes>
-            <Route index element={<PagesContainer />}/>
+            <Route path="my-portfolio" element={<PagesContainer />}/>
         </Routes>
         <Footer />
         </>
