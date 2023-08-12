@@ -1,14 +1,3 @@
-// import javascript from '../assets/logos/javascript.svg'
-// import typescript from '../assets/logos/typescript.svg'
-// import node from '../assets/logos/node.svg'
-// import react from '../assets/logos/react.svg'
-// import mongo from '../assets/logos/mongo.svg'
-// import python from '../assets/logos/python.svg'
-// import Docker from '../assets/logos/Docker.svg'
-// import sass from '../assets/logos/sass.svg'
-// import git from '../assets/logos/git.svg'
-// import figma from '../assets/logos/figma.svg'
-
 import javascript from '../components/logos/JavascriptLogo.jsx'
 import typescript from '../components/logos/TypeScriptLogo.jsx'
 import node from '../components/logos/NodeLogo.jsx'
@@ -19,6 +8,7 @@ import Docker from '../components/logos/DockerLogo.jsx'
 import sass from '../components/logos/SassLogo.jsx'
 import git from '../components/logos/GitLogo.jsx'
 import figma from '../components/logos/FigmaLogo.jsx'
+import express from '../components/logos/ExpressLogo.jsx'
 
 const skills = [
     {
@@ -35,7 +25,7 @@ const skills = [
     },
     {
         name: 'ExpressJS',
-        logo: undefined
+        logo: express
     },
     {
         name: 'ReactJS',
@@ -47,7 +37,7 @@ const skills = [
     },
     {
         name: 'SQL',
-        logo: undefined
+        logo: null
     },
     {
         name: 'Python',
@@ -83,7 +73,7 @@ const skills = [
     },
     {
         name: 'Postman',
-        logo: undefined
+        logo: null
     },
 ]
 
