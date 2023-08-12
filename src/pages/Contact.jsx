@@ -4,6 +4,8 @@ import { Link } from "react-router-dom"
 import LinkedInLogo from '../components/logos/LinkedInLogo';
 import GitHubLogo from '../components/logos/GitHubLogo';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
+import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
+import CallIcon from '@mui/icons-material/Call';
 
 const Contact = () => {
     const LinkedInLink = "https://www.linkedin.com/in/bassemsaeed620/";
@@ -35,15 +37,15 @@ const Contact = () => {
                 </div>
                 <h3 className="heading">Let's talk</h3>
                 <Row>
-                    <Col className="contactBox email" md={6} lg={4}>
+                    <Col className="contactBox contactFieldContainer" md={6} lg={4}>
                         <span className="d-block text-sec">Email:</span>
-                        <Link target="_blank" to="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bassemsaeed710@gmail.com" className="emailAddress">bassemsaeed710@gmail.com</Link>
-                        <ContentCopyOutlinedIcon onClick={ _ => copyToClipboard("bassemsaeed710@gmail.com")} className="copyEmail"/>
+                        <Link target="_blank" to="mailto:bassemsaeed710@gmail.com" className="contactLink">bassemsaeed710@gmail.com<OpenInNewOutlinedIcon/></Link>
+                        <ContentCopyOutlinedIcon onClick={ _ => copyToClipboard("bassemsaeed710@gmail.com")} className="copy"/>
                     </Col>
-                    <Col className="contactBox email" md={6} lg={4}>
+                    <Col className="contactBox contactFieldContainer" md={6} lg={4}>
                         <span className="d-block text-sec">Phone:</span>
-                        <Link target="_blank" to="tel:+201281441143" className="emailAddress">+201281441143</Link>
-                        <ContentCopyOutlinedIcon onClick={ _ => copyToClipboard("+201281441143")} className="copyEmail"/>
+                        <Link target="_blank" to="tel:+201281441143" className="contactLink"><CallIcon/>+20 1281441143</Link>
+                        <ContentCopyOutlinedIcon onClick={ _ => copyToClipboard("+201281441143")} className="copy"/>
                     </Col>
                     <Col className="contactBox social" md={12} lg={4}>
                             <div className='socialLinks'>

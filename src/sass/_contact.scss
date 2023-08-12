@@ -23,12 +23,12 @@
             }
         }
     }
-    .email{
+    .contactFieldContainer{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        .emailAddress{
+        .contactLink{
             transition: $transition02;
             color: $grey;
             text-decoration: none;
@@ -36,7 +36,7 @@
                 color: $sec;
             }
         }
-        .copyEmail{
+        .copy{
             color: $sec;
             transition: $transition02;
             width: 27px;
