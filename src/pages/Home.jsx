@@ -2,10 +2,9 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col} from 'react-bootstrap';
 
 import me from '../assets/images/me.jpg';
-import WhatsappLogo from '../components/logos/WhatsappLogo';
 import LinkedInLogo from '../components/logos/LinkedInLogo';
 import GitHubLogo from '../components/logos/GitHubLogo';
-import { Btn } from '../components/index';
+import { WhatsappBtn } from '../components';
 
 const Home = () => {
     const LinkedInLink = "https://www.linkedin.com/in/bassemsaeed620/";
@@ -46,7 +45,7 @@ const Home = () => {
                                     <GitHubLogo color='#7B4AE2' />
                                 </Link>
                             </div>
-                            <Btn logo={<WhatsappLogo color="#7B4AE2"/>} text="let's talk" toLink={"https://wa.me/+201281441143"}/>
+                            <WhatsappBtn />
                         </Col>
                     </Row>
                 </Container>
