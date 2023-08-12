@@ -13,6 +13,7 @@ const Experience = () => {
                     <Col sm={12} md={6} lg={4} className="boxesContainer">
                         <div className="box experience">
                             <h5 className="title">Backend Hackathon</h5>
+                            <span className="company">Orange Digital Center</span>
                             <p>
                                 During this week at Orange Digital Center, I worked on developing a RESTful API backend
                                 for Orange Company. The objective of the project was to create a platform for monitoring
