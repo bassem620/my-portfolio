@@ -4,11 +4,11 @@ import { Container, Row, Col} from 'react-bootstrap';
 import me from '../assets/images/me.jpg';
 import LinkedInLogo from '../components/logos/LinkedInLogo';
 import GitHubLogo from '../components/logos/GitHubLogo';
+
 import { WhatsappBtn } from '../components';
+import { LinkedInLink, GitHubLink } from '../assets/constants'
 
 const Home = () => {
-    const LinkedInLink = "https://www.linkedin.com/in/bassemsaeed620/";
-    const GitHubLink = "https://github.com/bassem620";
 
     return (
         <div className="home section" id='home'>

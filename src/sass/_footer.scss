@@ -1,12 +1,13 @@
 footer{
     height: $footerHeight;
     background-color: $main50;
-    color: $white50;
+    color: $grey;
     width: 100%;
     display: flex;
     align-items: center;
-    img{
+    svg{
         width: 30px;
+        fill: $grey;
     }
     a{
         padding-right: 15px;
