@@ -2,6 +2,8 @@ import { Container, Row, Col } from "react-bootstrap"
 import { Btn } from "../components"
 import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
 
+import experience from "../assets/experience";
+
 const Experience = () => {
     return (
         <div className="boxesSection section" id="experience">
@@ -10,26 +12,29 @@ const Experience = () => {
                     <span>🧑‍💻 Experience</span>
                 </div>
                 <Row className="m-0 p-0">
-                    <Col sm={12} md={6} lg={4} className="boxesContainer">
-                        <div className="box experience">
-                            <h5 className="title">Backend Hackathon</h5>
-                            <span className="company">Orange Digital Center</span>
-                            <p>
-                                During this week at Orange Digital Center, I worked on developing a RESTful API backend
-                                for Orange Company. The objective of the project was to create a platform for monitoring
-                                the courses offered by Orange's partners, such as Instant and Amit.
-                            </p>
-                            <div className="timeBound">
-                                <span className="duration">1 Week</span>
-                                <div>
-                                    <span className="date">16/09/2022</span>
-                                    <span>&nbsp;-&nbsp;</span>
-                                    <span className="date">22/09/2022</span>
+                    {
+                        experience.map( (exp, ind) => (
+                            <Col sm={12} md={6} lg={4} className="boxesContainer">
+                                <div className="box experience">
+                                    <h5 className="title">{exp.title}</h5>
+                                    <span className="company">{exp.company}</span>
+                                    <p>{exp.desc}</p>
+                                    <div className="timeBound">
+                                        <span className="duration">{exp.duration}</span>
+                                        <div>
+                                            <span className="date">{exp.start}</span>
+                                            <span>&nbsp;-&nbsp;</span>
+                                            <span className="date">{exp.end}</span>
+                                        </div>
+                                    </div>
+                                    {
+                                        exp.link &&
+                                        <Btn text={exp.link.name} toLink={exp.link.link} logo={<OpenInNewOutlinedIcon />}/>
+                                    }
                                 </div>
-                            </div>
-                            <Btn text="More" toLink="" logo={<OpenInNewOutlinedIcon />}/>
-                        </div>
-                    </Col>
+                            </Col>
+                        ) )
+                    }
                 </Row>
             </Container>
         </div>
