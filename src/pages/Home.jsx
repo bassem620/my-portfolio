@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <div className="home section" id='home'>
-                <Container className='h-100'>
+                <Container className='d-flex align-items-center h-100'>
                     <Row className='m-0 p-0'>
                         {/* Left side */}
                         <Col md={6} lg={4}>
