@@ -24,7 +24,7 @@ const Home = () => {
                                     Bassem
                                 </span>
                                 <span className="lastname">
-                                    Said
+                                    Saeed
                                 </span>
                             </div>
                             <span className="posTitle fw-light">
