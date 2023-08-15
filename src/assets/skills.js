@@ -32,6 +32,14 @@ const skills = [
         logo: react
     },
     {
+        name: 'Redux',
+        logo: null
+    },
+    {
+        name: 'Redux-Toolkit',
+        logo: null
+    },
+    {
         name: 'MongoDB',
         logo: mongo
     },
@@ -42,6 +50,18 @@ const skills = [
     {
         name: 'Python',
         logo: python
+    },
+    {
+        name: 'Java',
+        logo: null
+    },
+    {
+        name: 'PHP',
+        logo: null
+    },
+    {
+        name: 'Ruby',
+        logo: null
     },
     {
         name: 'Docker',
@@ -73,6 +93,10 @@ const skills = [
     },
     {
         name: 'Postman',
+        logo: null
+    },
+    {
+        name: 'Test-Driven Development (TTD)',
         logo: null
     },
 ]
