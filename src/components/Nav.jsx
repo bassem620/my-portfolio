@@ -6,8 +6,11 @@ const Nav = () => {
     const [mobileMenuActive, setMobileMenuActive] = useState(false);
     const [activeLink, setActiveLink] = useState('home');
 
-    const toggleMobileMenu = _ => setMobileMenuActive(!mobileMenuActive);
-    const handleNavLinkClick = (link) => setActiveLink(link);
+    const toggleMobileMenu = _ => setMobileMenuActive( prev => !prev);
+    const handleNavLinkClick = (link) => {
+        setActiveLink(link)
+        setMobileMenuActive(false)
+    };
 
     useEffect(() => {
         const handleScroll = () => {
