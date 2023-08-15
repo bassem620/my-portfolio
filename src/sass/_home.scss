@@ -47,6 +47,19 @@
             padding-right: 15px;
         }
     }
+    .resume{
+        color: $sec;
+        text-decoration: none;
+        margin-top: 8px;
+        font-size: 16px;
+        svg{
+            width: 20px;
+            padding-left: 2px;
+        }
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 }   
 
 @media (max-width: 385px){

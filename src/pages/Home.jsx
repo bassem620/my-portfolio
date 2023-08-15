@@ -7,8 +7,11 @@ import GitHubLogo from '../components/logos/GitHubLogo';
 
 import { WhatsappBtn } from '../components';
 import { LinkedInLink, GitHubLink } from '../assets/constants'
+import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
 
 const Home = () => {
+
+    const resumeBtn = _ => window.open("https://drive.google.com/file/d/1Ec_Id0i-NvM30dlYH-5qPzlv8Q7p6rKH/view?usp=drive_link", '_blank');
 
     return (
         <div className="home section" id='home'>
@@ -46,6 +49,7 @@ const Home = () => {
                                 </Link>
                             </div>
                             <WhatsappBtn />
+                            <Link onClick={resumeBtn} className='resume'>Resume<OpenInNewOutlinedIcon/></Link>
                         </Col>
                     </Row>
                 </Container>
