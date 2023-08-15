@@ -9,6 +9,10 @@ import sass from '../components/logos/SassLogo.jsx'
 import git from '../components/logos/GitLogo.jsx'
 import figma from '../components/logos/FigmaLogo.jsx'
 import express from '../components/logos/ExpressLogo.jsx'
+import ruby from '../components/logos/RubyLogo.jsx'
+import sql from '../components/logos/SqlLogo.jsx'
+import redux from '../components/logos/ReduxLogo.jsx'
+import java from '../components/logos/Javalogo.jsx'
 
 const skills = [
     {
@@ -33,11 +37,11 @@ const skills = [
     },
     {
         name: 'Redux',
-        logo: null
+        logo: redux
     },
     {
         name: 'Redux-Toolkit',
-        logo: null
+        logo: redux
     },
     {
         name: 'MongoDB',
@@ -45,7 +49,7 @@ const skills = [
     },
     {
         name: 'SQL',
-        logo: null
+        logo: sql
     },
     {
         name: 'Python',
@@ -53,7 +57,7 @@ const skills = [
     },
     {
         name: 'Java',
-        logo: null
+        logo: java
     },
     {
         name: 'PHP',
@@ -61,7 +65,7 @@ const skills = [
     },
     {
         name: 'Ruby',
-        logo: null
+        logo: ruby
     },
     {
         name: 'Docker',
