@@ -2,7 +2,7 @@ const projects = [
     {
         id: 0,
         title: "E-Commerce RESTful API Backend",
-        desc: "I Created a dynamic E-Commerce RESTful API server using NodeJS and MongoDB, this RESTful API boasts admin, manager, and user permissions. Admins and managers effortlessly add products and oversee all aspects, from sales to user activity. Users enjoy curated favorites, category-based browsing, coupon integration, and the ability to leave feedback on purchases. Elevate your online shopping with this dynamic, permission-driven solution.",
+        desc: "I created a dynamic E-Commerce RESTful API server using NodeJS and MongoDB, this RESTful API boasts admin, manager, and user permissions. Admins and managers effortlessly add products and oversee all aspects, from sales to user activity. Users enjoy curated favorites, category-based browsing, coupon integration, and the ability to leave feedback on purchases.",
         spec: "Backend",
         private: false,
         workingOn: false,
@@ -24,7 +24,7 @@ const projects = [
     {
         id: 1,
         title: "E-Commerce Responsive Website",
-        desc: "I crafted an E-Commerce site using ReactJS and Redux. Seamlessly aligned with the NodeJS and MongoDB backend, it harmonizes dynamic features with an intuitive design. Emphasizing clean architecture and precision in coding, the project ensures a smooth backend-to-frontend transition. Admins and managers retain control, users relish a curated journey, and the result is a permission-based, aesthetically pleasing online shopping hub.",
+        desc: "I created an E-Commerce website using ReactJS and Redux. Seamlessly aligned with the NodeJS and MongoDB RESTful API backend, it harmonizes dynamic features with an intuitive design. Emphasizing clean architecture and precision in coding, the project ensures a smooth backend-to-frontend transition. Admins and managers retain control, users relish a curated journey, and the result is a permission-based.",
         spec: "Frontend",
         private: false,
         workingOn: true,
@@ -90,7 +90,7 @@ const projects = [
     {
         id: 4,
         title: "Notes App",
-        desc: "Presenting a minimalist, responsive Notes App developed with HTML, CSS, and pure JavaScript. This intuitive application equips users with the ability to seamlessly add, edit, and remove their notes, leveraging the power of local storage for seamless data retention. Experience a user-centric approach to digital note-taking, blending simplicity and functionality seamlessly.",
+        desc: "Presenting a simple responsive Notes App developed with HTML, CSS, and plain JavaScript. This intuitive application equips users with the ability to add, edit, and remove their notes, leveraging the power of local storage for data retention. Experience a user-centric approach to digital note-taking, blending simplicity and functionality seamlessly.",
         spec: "Frontend",
         private: false,
         workingOn: false,
@@ -128,7 +128,7 @@ const projects = [
     {
         id: 6,
         title: "Book Library",
-        desc: "Presenting a simple Ruby RESTful API backend server project, designed to enable seamless addition of book details by users. This project integrates user authentication and follows the Test-Driven Development (TDD) methodology for robust implementation.",
+        desc: "Presenting a simple Ruby RESTful API backend server project, designed to enable addition of book details by users. This project integrates user authentication and follows the Test-Driven Development (TDD) methodology for robust implementation.",
         spec: "Backend",
         private: false,
         workingOn: false,
