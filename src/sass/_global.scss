@@ -15,6 +15,7 @@
 }
 
 .button{
+    background-color: $main;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -60,8 +61,7 @@
             padding: 12px;
             img{
                 width: 100%;
-                min-height: 50%;
-                max-height: 60%;
+                height: 250px;
                 margin-bottom: 8px;
                 border: 1px solid $sec;
                 border-radius: $borderRadius2;
@@ -71,19 +71,46 @@
                 text-align: center;
                 margin: 0;
                 padding: 0;
+                padding-bottom: 8px;
+                margin-bottom: 8px;
+                font-weight: 800;
+                border-bottom: 1px solid $sec;
             }
             p{
                 color: $white50;
                 width: 100%;
                 font-weight: 300;
-                max-height: 4 * 1.2em;
-                -webkit-line-clamp: 4; 
                 overflow: hidden; 
                 white-space: normal; 
-                text-overflow: ellipsis; 
                 display: -webkit-box; 
                 -webkit-box-orient: vertical; 
-                line-height: 1.2em; 
+                line-height: 1.35em; 
+            }
+            .host{
+                color: $sec;
+                margin-bottom: 5px;
+                text-decoration: none;
+                svg{
+                    width: 17px;
+                    margin-left: 5px;
+                }
+            }
+            .workingOn{
+                color: $sec;
+                position: relative;
+                padding-left: 20px;
+                margin-bottom: 5px;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    background-color: green;
+                    border-radius: 50%;
+                    top: 50%;
+                    left: 3px;
+                    transform: translateY(-50%);
+                }
             }
             .btns{
                 svg{
@@ -140,4 +167,15 @@
     box-shadow: 0px 0px 15px $main;
     color: white;
     border-radius: 5px;
+}
+
+.disable{
+    pointer-events: none !important;
+    border-color: $sec50;
+    color: $sec50;
+}
+
+.globalBtn{
+    background-color: $main;
+
 }
