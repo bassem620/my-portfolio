@@ -10,9 +10,12 @@ const About = () => {
                             <span>🧐 About me</span>
                         </div>
                         <p className="aboutme">
-                            My name is Bassem Said. I'm a student at Helwan University's Faculty of Computer Science and Artificial Intelligence, I am on track to graduate in 2025. <br/><br/>
-                            Currently, I am working as a full-stack developer, utilizing the MERN stack to build dynamic and responsive applications. With a strong background in both frontend and backend development.<br/><br/> 
-                            In addition to my current skill set, I am always eager to expand my knowledge and learn new technologies.
+                        As a junior at Helwan University's Faculty of Computer Science and Artificial Intelligence, I
+                        am on track to graduate in 2025. <br /><br /> My expertise lies in full-stack development, with a strong focus
+                        on utilizing the MERN stack to build dynamic and responsive applications. <br />I possess a
+                        comprehensive background in both frontend and backend development, which allows me to
+                        contribute to all aspects of the software development lifecycle. <br /><br />I am always eager to expand my
+                        knowledge and stay up-to-date with the latest technologies in order to broaden my skill set.
                         </p>
                     </Col>
                     <Col md={6} className="education pt-4 pt-md-0">
