@@ -6,12 +6,12 @@ import LinkedInLogo from '../components/logos/LinkedInLogo';
 import GitHubLogo from '../components/logos/GitHubLogo';
 
 import { WhatsappBtn } from '../components';
-import { LinkedInLink, GitHubLink } from '../assets/constants'
+import { LinkedInLink, GitHubLink, resumeLink } from '../assets/constants'
 import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
 
 const Home = () => {
 
-    const resumeBtn = _ => window.open("https://drive.google.com/file/d/1Ec_Id0i-NvM30dlYH-5qPzlv8Q7p6rKH/view?usp=drive_link", '_blank');
+    const resumeBtn = _ => window.open(resumeLink, '_blank');
 
     return (
         <div className="home section" id='home'>
