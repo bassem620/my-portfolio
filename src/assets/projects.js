@@ -33,10 +33,7 @@ const projects = [
                 name: 'Github',
                 link: 'https://github.com/bassem620/e-shop-frontend',
             },
-            linkedin: {
-                name: 'LinkedIn Post',
-                link: null,
-            }
+            linkedin: null
         },
     },
     {
