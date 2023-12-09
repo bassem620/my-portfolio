@@ -29,6 +29,21 @@ const Nav = () => {
         };
     }, []);
 
+    useEffect(() => {
+        const handleScroll = _ => setMobileMenuActive(false);
+        const handleClickOutside = (event) => {
+            if (!event.target.closest('.nav')) {
+                setMobileMenuActive(false);
+            }
+        };
+        document.addEventListener('click', handleClickOutside);
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [mobileMenuActive]);
+
     return (
     <div className={`nav ${mobileMenuActive ? 'active' : ''}`}>
         <div className="container">
