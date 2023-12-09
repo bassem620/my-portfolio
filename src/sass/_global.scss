@@ -18,6 +18,12 @@ svg{
     fill: $sec !important;
 }
 
+.disable {
+    svg{
+        fill: $sec50 !important;
+    }
+}
+
 .button{
     background-color: $main;
     text-decoration: none;
