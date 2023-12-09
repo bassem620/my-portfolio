@@ -4,7 +4,7 @@ import { sendWhatsappMsg } from '../assets/constants';
 
 const WhatsappBtn = () => {
     return (
-        <Btn logo={<WhatsappLogo color="#7B4AE2"/>} text="let's talk" toLink={sendWhatsappMsg}/>
+        <Btn logo={<WhatsappLogo/>} text="let's talk" toLink={sendWhatsappMsg}/>
     )
 }
 

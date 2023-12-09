@@ -32,7 +32,7 @@ const ProjectBox = ({project}) => {
                 </div>
                 <div className="btns d-flex align-items-center">
                     <Btn toLink={project.links.linkedin && project.links.linkedin.link} text="More" logo={<OpenInNewOutlinedIcon />} classes={"w-50 me-1 " + (!project.links.linkedin && "disable")}/>
-                    <Btn toLink={project.links.github && project.links.github.link} text={project.private ? "Private" : "Code"} logo={<GitHubLogo color="#7B4AE2"/>} classes={"w-50 ms-1" + (!project.links.github && "disable")}/>
+                    <Btn toLink={project.links.github && project.links.github.link} text={project.private ? "Private" : "Code"} logo={<GitHubLogo />} classes={"w-50 ms-1" + (!project.links.github && "disable")}/>
                 </div>
             </div>
         </Col>

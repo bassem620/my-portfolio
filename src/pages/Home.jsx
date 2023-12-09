@@ -42,10 +42,10 @@ const Home = () => {
                         <Col md={12} lg={4}>
                             <div className='socialLinks'>
                                 <Link target="_blank" to={LinkedInLink}>
-                                    <LinkedInLogo color='#7B4AE2' />
+                                    <LinkedInLogo />
                                 </Link>
                                 <Link target="_blank" to={GitHubLink}>
-                                    <GitHubLogo color='#7B4AE2' />
+                                    <GitHubLogo />
                                 </Link>
                             </div>
                             <WhatsappBtn />

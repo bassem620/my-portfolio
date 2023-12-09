@@ -13,7 +13,7 @@ const Skills = () => {
                     {
                         skills.map((sk, ind) => (
                             <div className="skill" key={ind}>
-                                { sk.logo && <sk.logo color='#7B4AE2'/>}
+                                { sk.logo && <sk.logo />}
                                 <span>{sk.name}</span>
                             </div>
                         ))
