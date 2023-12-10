@@ -1,6 +1,22 @@
 const projects = [
     {
         id: 0,
+        title: "Baye3 Marketplace",
+        desc: "Online marketplace connecting buyers and sellers of a wide range of products, with a user-friendly platform. Developed with the MERN stack, the platform implements RESTful APIs that provide three levels of user permissions, and localization for both backend responses and the user interface (English andArabic). Additionally, it integrates Google Authentication and Firebase storage.",
+        spec: "Full Stack",
+        private: true,
+        workingOn: true,
+        links:{
+            github: null,
+            host: {
+                name: 'Try',
+                link: "https://baye3-frontend.onrender.com",
+            },
+            linkedin: null
+        },
+    },
+    {
+        id: 1,
         title: "E-Commerce RESTful API Backend",
         desc: "I created a dynamic E-Commerce RESTful API server using NodeJS and MongoDB, this RESTful API boasts admin, manager, and user permissions. Admins and managers effortlessly add products and oversee all aspects, from sales to user activity. Users enjoy curated favorites, category-based browsing, coupon integration, and the ability to leave feedback on purchases.",
         spec: "Backend",
@@ -22,7 +38,7 @@ const projects = [
         },
     },
     {
-        id: 1,
+        id: 2,
         title: "E-Commerce Responsive Website",
         desc: "I created an E-Commerce website using ReactJS and Redux. Seamlessly aligned with the NodeJS and MongoDB RESTful API backend, it harmonizes dynamic features with an intuitive design. Emphasizing clean architecture and precision in coding, the project ensures a smooth backend-to-frontend transition. Admins and managers retain control, users relish a curated journey, and the result is a permission-based.",
         spec: "Frontend",
@@ -37,7 +53,7 @@ const projects = [
         },
     },
     {
-        id: 2,
+        id: 3,
         title: "Learning Department Backend",
         desc: "I developed a versatile platform for monitoring courses from Orange's partners like Instant and Amit. This API-driven project features user roles (admin, manager, student), offering secure user management, course tracking, personalized recommendations, partner financial management, and student recognition for job opportunities.",
         spec: "Backend",
@@ -55,7 +71,7 @@ const projects = [
         },
     },
     {
-        id: 3,
+        id: 4,
         title: "Networking PHP Application",
         desc: `I successfully completed a project as part of my Software Engineering course (CS251) with my
         college mates. The project involved two phases: Phase 1 focused on creating comprehensive
@@ -85,7 +101,7 @@ const projects = [
         },
     },
     {
-        id: 4,
+        id: 5,
         title: "Notes App",
         desc: "Presenting a simple responsive Notes App developed with HTML, CSS, and plain JavaScript. This intuitive application equips users with the ability to add, edit, and remove their notes, leveraging the power of local storage for data retention. Experience a user-centric approach to digital note-taking, blending simplicity and functionality seamlessly.",
         spec: "Frontend",
@@ -107,7 +123,7 @@ const projects = [
         },
     },
     {
-        id: 5,
+        id: 6,
         title: "Bug Tracker",
         desc: "An efficient Bug Tracking System (Java desktop application) comprising Tester, Developer, Project Manager, and Admin modules. Testers define bugs, assign tasks, and track progress and automated emails to developers. Developers update statuses, triggering notifications for testers. Project Managers assess team performance and oversee bugs, while Admins manage roles and access project-wide bug insights. Simplify bug management for enhanced collaboration and productivity.",
         spec: "Full Stack",
@@ -123,7 +139,7 @@ const projects = [
         },
     },
     {
-        id: 6,
+        id: 7,
         title: "Book Library",
         desc: "Presenting a simple Ruby RESTful API backend server project, designed to enable addition of book details by users. This project integrates user authentication and follows the Test-Driven Development (TDD) methodology for robust implementation.",
         spec: "Backend",
