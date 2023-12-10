@@ -9,7 +9,7 @@ const projects = [
         links:{
             github: {
                 name: 'Github',
-                link: 'https://github.com/bassem620/e-shop-backend',
+                link: 'https://github.com/bassem710/e-shop-backend',
             },
             host: {
                 name: 'Try on Postman',
@@ -17,7 +17,7 @@ const projects = [
             },
             linkedin: {
                 name: 'LinkedIn Post',
-                link: 'https://www.linkedin.com/posts/bassemsaeed620_nodejs-nodejsdevelopment-nodejsdevelopers-activity-7054030810974142464-nlIr?utm_source=share&utm_medium=member_desktop',
+                link: 'https://www.linkedin.com/posts/bassemsaid710_nodejs-nodejsdevelopment-nodejsdevelopers-activity-7054030810974142464-y8oD?utm_source=share&utm_medium=member_desktop',
             }
         },
     },
@@ -31,7 +31,7 @@ const projects = [
         links:{
             github: {
                 name: 'Github',
-                link: 'https://github.com/bassem620/e-shop-frontend',
+                link: 'https://github.com/bassem710/e-shop-frontend',
             },
             linkedin: null
         },
@@ -46,11 +46,11 @@ const projects = [
         links:{
             github: {
                 name: 'Github',
-                link: 'https://github.com/bassem620/ODC-Backend-Project',
+                link: 'https://github.com/bassem710/ODC-Backend-Project',
             },
             linkedin: {
                 name: 'LinkedIn Post',
-                link: 'https://www.linkedin.com/posts/bassemsaeed620_orange-orangedigitalcenter-backend-activity-7035657966984773632-Eimv?utm_source=share&utm_medium=member_desktop'
+                link: 'https://www.linkedin.com/posts/bassemsaid710_orange-orangedigitalcenter-backend-activity-7035657966984773632-gFKa?utm_source=share&utm_medium=member_desktop'
             }
         },
     },
@@ -68,7 +68,7 @@ const projects = [
         links:{
             github: {
                 name: 'Github',
-                link: 'https://github.com/bassem620/Networking-PHP-Application',
+                link: 'https://github.com/bassem710/Networking-PHP-Application',
             },
             host: null,
             linkedin: null,
@@ -94,15 +94,15 @@ const projects = [
         links:{
             github: {
                 name: 'Github',
-                link: 'https://github.com/bassem620/Notes-App',
+                link: 'https://github.com/bassem710/Notes-App',
             },
             host: {
                 name: 'Try',
-                link: "https://bassem620.github.io/Notes-App/",
+                link: "https://bassem710.github.io/Notes-App/",
             },
             linkedin: {
                 name: 'LinkedIn Post',
-                link: 'https://www.linkedin.com/posts/bassemsaeed620_html-html5-css-activity-6960242207043768321-X9xx?utm_source=share&utm_medium=member_desktop',
+                link: 'https://www.linkedin.com/posts/bassemsaid710_html5-css3-javascript-activity-6958115450740174848-dksP?utm_source=share&utm_medium=member_desktop',
             }
         },
     },
@@ -116,7 +116,7 @@ const projects = [
         links:{
             github: {
                 name: 'Github',
-                link: 'https://github.com/bassem620/Java_Bug_Tracker',
+                link: 'https://github.com/bassem710/Java_Bug_Tracker',
             },
             host: null,
             linkedin: null
@@ -132,7 +132,7 @@ const projects = [
         links:{
             github: {
                 name: 'Github',
-                link: 'https://github.com/bassem620/Books-Library-Ruby',
+                link: 'https://github.com/bassem710/Books-Library-Ruby',
             },
             host: null,
             linkedin: null

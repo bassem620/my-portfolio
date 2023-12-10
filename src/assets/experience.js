@@ -10,7 +10,7 @@ const experience = [
         end: '22/09/2022',
         link: {
             name: 'LinkedIn Post',
-            link: `https://www.linkedin.com/posts/bassemsaeed620_orange-orangedigitalcenter-backend-activity-7035657966984773632-Eimv?utm_source=share&utm_medium=member_desktop`
+            link: `https://www.linkedin.com/posts/bassemsaid710_orange-orangedigitalcenter-backend-activity-7035657966984773632-gFKa?utm_source=share&utm_medium=member_desktop`
         },
     }
 ];
