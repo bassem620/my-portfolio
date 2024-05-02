@@ -25,7 +25,7 @@ const About = () => {
                         <h4>Bachelor's degree, Computer Science</h4>
                         <h5>Helwan University</h5>
                         <h6>2021 - 2025</h6>
-                        <p>Last year GPA: 3.37 (Very Good)</p>
+                        <p>Current GPA: 3.41 (Excellent)</p>
                     </Col>
                 </Row>
             </Container>

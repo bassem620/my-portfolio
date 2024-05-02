@@ -9,7 +9,7 @@ const Footer = () => {
         <footer>
             <div className="container-lg">
                 <div className="row m-0 p-0 align-items-center text-center">
-                    <span className="col-6 col-lg-4">Copyright © Bassem Said · {new Date().getFullYear()}</span>
+                    <span className="col-6 col-lg-4">Copyright © Bassem Saeed · {new Date().getFullYear()}</span>
                     <div className="col-6 col-lg-4">
                         <Link target="_blank" to={LinkedInLink}>
                             <LinkedInLogo />

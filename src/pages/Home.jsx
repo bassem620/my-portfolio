@@ -49,7 +49,7 @@ const Home = () => {
                                 </Link>
                             </div>
                             <WhatsappBtn />
-                            <Link onClick={resumeBtn} className='resume'>Resume<OpenInNewOutlinedIcon/></Link>
+                            <Link onClick={resumeBtn} className='resume'>CV<OpenInNewOutlinedIcon/></Link>
                         </Col>
                     </Row>
                 </Container>

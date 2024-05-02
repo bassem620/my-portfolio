@@ -13,7 +13,7 @@ const Experience = () => {
                 </div>
                 <Row className="m-0 p-0">
                     {
-                        experience.map( (exp, ind) => (
+                        experience.reverse().map( (exp, ind) => (
                             <Col sm={12} md={6} lg={4} className="boxesContainer" key={ind}>
                                 <div className="box experience">
                                     <h5 className="title">{exp.title}</h5>
