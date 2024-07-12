@@ -100,7 +100,7 @@ const skills = [
         logo: null
     },
     {
-        name: 'Test-Driven Development (TTD)',
+        name: 'Test-Driven Development (TDD)',
         logo: null
     },
 ]
