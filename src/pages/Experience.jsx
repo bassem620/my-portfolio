@@ -16,7 +16,14 @@ const Experience = () => {
             <Col sm={12} md={6} lg={4} className="boxesContainer" key={ind}>
               <div className="box experience">
                 <h5 className="title">{exp.title}</h5>
-                <span className="company">{exp.company}</span>
+                <div>
+                  <img
+                    className="company-logo"
+                    src={exp.logo}
+                    alt={exp.company}
+                  />
+                  <span className="company">{exp.company}</span>
+                </div>
                 <p>{exp.desc}</p>
                 <div className="timeBound">
                   <span className="duration">{exp.duration}</span>

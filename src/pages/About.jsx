@@ -10,7 +10,7 @@ const About = () => {
               <span>🧐 About me</span>
             </div>
             <p className="aboutme">
-              As a junior at Helwan University's Faculty of Computer Science and
+              As a senior at Helwan University's Faculty of Computer Science and
               Artificial Intelligence, I am on track to graduate in 2025. <br />
               <br /> My expertise lies in full-stack development, with a strong
               focus on utilizing the MERN stack to build dynamic and responsive

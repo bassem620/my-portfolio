@@ -1,10 +1,14 @@
+import ODCLogo from "./images/ODC-logo.jpg";
+import neonLogo from "./images/neon-logo.jpg";
+
 const experience = [
   {
     title: "Backend Hackathon",
+    logo: ODCLogo,
     company: "Orange Digital Center",
     desc: `During this week at Orange Digital Center, I worked on developing a RESTful API backend
-        for Orange Company. The objective of the project was to create a platform for monitoring
-        the courses offered by Orange's partners, such as Instant and Amit.`,
+    for Orange Company. The objective of the project was to create a platform for monitoring
+    the courses offered by Orange's partners, such as Instant and Amit.`,
     duration: "1 week",
     start: "16/09/2022",
     end: "22/09/2022",
@@ -16,6 +20,7 @@ const experience = [
   {
     title: "Full Stack Developer",
     company: "NEON Software Agency",
+    logo: neonLogo,
     desc: `During this week at Orange Digital Center, I worked on developing a RESTful API backend
         for Orange Company. The objective of the project was to create a platform for monitoring
         the courses offered by Orange's partners, such as Instant and Amit.`,

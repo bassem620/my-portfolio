@@ -132,6 +132,12 @@ svg {
           }
         }
       }
+      .company-logo {
+        width: 48px;
+        height: 48px;
+        margin-right: 10px;
+        border: 2px solid $sec;
+      }
       .company {
         color: $sec;
         margin-bottom: 5px;
