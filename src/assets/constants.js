@@ -1,7 +1,7 @@
 export const LinkedInLink = "https://www.linkedin.com/in/bassemsaid710/";
 export const GitHubLink = "https://github.com/bassem710";
 export const resumeLink =
-  "https://drive.google.com/file/d/1PENWHcryaUgE-WRui4s3dBD49c02KQNP/view?usp=sharing";
+  "https://drive.google.com/file/d/1DWcBYPB7kdi8okaWQRrtAPZyY6m-PdqH/view?usp=sharing";
 export const emailAddress = "bassemsaeed710@gmail.com";
 export const mailTo = `mailto:${emailAddress}`;
 export const phoneNumber = "+201281441143";
