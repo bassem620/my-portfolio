@@ -1,122 +1,122 @@
-.home{
-    background-color: $main;
-    height: $sectionHeight;
-    padding-top: $navHeight;
-    padding-bottom: 50px;
-    .row{
-        height: 100%;
-        position: relative;
+.home {
+  background-color: $main;
+  height: $sectionHeight;
+  padding-top: $navHeight;
+  padding-bottom: 50px;
+  .row {
+    height: 100%;
+    position: relative;
+  }
+  .row > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .row > div:nth-of-type(1) {
+    align-items: start;
+  }
+  .name {
+    span {
+      color: white;
+      display: block;
+      font-weight: 800;
+      line-height: normal;
+      font-style: normal;
+      font-size: 52px;
     }
-    .row  > div{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+  }
+  .posTitle {
+    margin-top: 7px;
+    color: $white50;
+  }
+  .myPhoto {
+    width: 80%;
+    padding: 7px;
+    border: 3px solid $sec;
+    border-radius: 100%;
+  }
+  .socialLinks {
+    margin-bottom: 15px;
+    height: 35px;
+    svg {
+      width: 30px;
     }
-    .row > div:nth-of-type(1){
-        align-items: start;
+    a {
+      padding-right: 15px;
     }
-    .name{
-        span{
-            color: white;
-            display: block;
-            font-weight: 800;
-            line-height: normal;
-            font-style: normal;
-            font-size: 52px;
-        }
+  }
+  .resume {
+    color: $sec;
+    text-decoration: none;
+    margin-top: 8px;
+    font-size: 16px;
+    svg {
+      width: 20px;
+      padding-left: 2px;
     }
-    .posTitle{
-        margin-top: 7px;
-        color: $white50;
+    &:hover {
+      text-decoration: underline;
     }
-    .myPhoto{
-        width: 80%;
-        padding: 7px;
-        border: 3px solid $sec;
-        border-radius: 100%;
-    }
-    .socialLinks{
-        margin-bottom: 15px;
-        height: 35px;
-        svg{
-            width: 30px;
-        }
-        a{
-            padding-right: 15px;
-        }
-    }
-    .resume{
-        color: $sec;
-        text-decoration: none;
-        margin-top: 8px;
-        font-size: 16px;
-        svg{
-            width: 20px;
-            padding-left: 2px;
-        }
-        &:hover{
-            text-decoration: underline;
-        }
-    }
-}   
-
-@media (max-width: 385px){
-    .myPhoto{
-        max-width: 382px !important;
-        margin: 30px 0 !important;
-    }
+  }
 }
 
-@media (max-width: 767px){
-    .myPhoto{
-        max-width: 282px !important;
-        margin: 10px 0 !important;
-    }
-    .row > div:nth-child(2){
-        order: -1;
-        height: max-content !important;
-    }
-    .socialLinks{
-        margin-top: 20px;
-    }
+@media (max-width: 385px) {
+  .myPhoto {
+    max-width: 382px !important;
+    margin: 30px 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .myPhoto {
+    max-width: 282px !important;
+    margin: 10px 0 !important;
+  }
+  .row > div:nth-child(2) {
+    order: -1;
+    height: max-content !important;
+  }
+  .socialLinks {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
-    .home{
-        .row{
-            height: 100%; 
-        }
-        .row > div{
-            height: 80% !important;
-            align-items: center;
-        }
-        .row > div:nth-of-type(3){
-            height: 20% !important
-        } 
+  .home {
+    .row {
+      height: 100%;
     }
+    .row > div {
+      height: 80% !important;
+      align-items: center;
+    }
+    .row > div:nth-of-type(3) {
+      height: 20% !important;
+    }
+  }
 }
 
 @media (max-width: 991px) {
-    .home{
-        padding-bottom: 50px;
-        .row{
-            height: fit-content;
-        }
-        .row  > div{
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        .row > div:nth-of-type(1){
-            align-items: start;
-        }
-        .myPhoto{
-            max-width: 382px;
-            margin: 30px 0;
-        }
+  .home {
+    padding-bottom: 50px;
+    .row {
+      height: fit-content;
     }
+    .row > div {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .row > div:nth-of-type(1) {
+      align-items: start;
+    }
+    .myPhoto {
+      max-width: 382px;
+      margin: 30px 0;
+    }
+  }
 }

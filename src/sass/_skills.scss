@@ -1,26 +1,26 @@
-.skills{
-    height: fit-content !important;
-    .skillsContainer{
-        display: flex;
-        flex-wrap: wrap;
-        .skill{
-            background-color: $main50;
-            width: fit-content;
-            padding: 10px 15px;
-            border-radius: $borderRadius;
-            display: flex;
-            align-items: center;
-            margin-left: 10px;
-            margin-bottom: 10px;
-            svg{
-                width: 25px !important;
-                height: 25px !important;
-                margin-right: 10px;
-            }
-            span{
-                color: $white;
-                font-weight: 700;
-            }
-        }
+.skills {
+  height: fit-content !important;
+  .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    .skill {
+      background-color: $main50;
+      width: fit-content;
+      padding: 10px 15px;
+      border-radius: $borderRadius;
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      svg {
+        width: 25px !important;
+        height: 25px !important;
+        margin-right: 10px;
+      }
+      span {
+        color: $white;
+        font-weight: 700;
+      }
     }
+  }
 }

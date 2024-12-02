@@ -1,23 +1,16 @@
-import {
-    Home,
-    About,
-    Skills,
-    Projects,
-    Experience,
-    Contact
-} from './index';
+import { Home, About, Skills, Projects, Experience, Contact } from "./index";
 
 const PagesContainer = () => {
-    return (
-        <>
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Contact />
-        </>
-    )
-}
+  return (
+    <>
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Contact />
+    </>
+  );
+};
 
-export default PagesContainer
+export default PagesContainer;

@@ -1,6 +1,6 @@
-$custom-colors : (
-    "main" : #091116,
-    "sec" : #3a99e1
+$custom-colors: (
+  "main": #091116,
+  "sec": #3a99e1
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);

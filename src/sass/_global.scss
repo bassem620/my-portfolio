@@ -1,191 +1,190 @@
-.textBox{
-    width: max-content;
-    height: fit-content;
-    padding: 6px 15px;
-    flex-shrink: 0;
-    border-radius: 16px;
-    background: $main50;
-    margin-bottom: 20px;
-    span{
-        color: $sec;
-        text-align: center;
-        font-weight: 500;
-        font-size: 18px;
-    }
+.textBox {
+  width: max-content;
+  height: fit-content;
+  padding: 6px 15px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: $main50;
+  margin-bottom: 20px;
+  span {
+    color: $sec;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+  }
 }
 
-svg{
-    fill: $sec !important;
+svg {
+  fill: $sec !important;
 }
 
 .disable {
-    svg{
-        fill: $sec50 !important;
-    }
+  svg {
+    fill: $sec50 !important;
+  }
 }
 
-.button{
-    background-color: $main;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $sec;
-    border: 1px solid $sec;
-    border-radius: 16px;
-    padding: 7px 15px;
+.button {
+  background-color: $main;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $sec;
+  border: 1px solid $sec;
+  border-radius: 16px;
+  padding: 7px 15px;
+  transition: $transition02;
+  height: 43px;
+  svg {
+    width: 30px !important;
+    height: 30px !important;
     transition: $transition02;
-    height: 43px;
-    svg{
-        width: 30px !important;
-        height: 30px !important;
-        transition: $transition02;
-    }
-    span{
-        padding-left: 8px;
-        font-size: 18px;
-        font-weight: 500;
-    }
-    &:hover{
-        background-color: $sec;
-        color: $main;
-        svg{
-            fill: $main !important;
-        }
-    }
-}
-
-.boxesSection{
-    height: fit-content !important;
-    width: 100%;
-    .boxesContainer{
-        padding: 5px !important;
-        .box{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: stretch;
-            height: 100%;
-            border: 1px solid $sec;
-            border-radius: $borderRadius2;
-            padding: 12px;
-            img{
-                width: 100%;
-                height: 250px;
-                margin-bottom: 8px;
-                border: 1px solid $sec;
-                border-radius: $borderRadius2;
-            }
-            .title{
-                color: $white;
-                text-align: center;
-                margin: 0;
-                padding: 0;
-                padding-bottom: 8px;
-                margin-bottom: 8px;
-                font-weight: 800;
-                border-bottom: 1px solid $sec;
-            }
-            p{
-                color: $white50;
-                width: 100%;
-                font-weight: 300;
-                overflow: hidden; 
-                white-space: normal; 
-                display: -webkit-box; 
-                -webkit-box-orient: vertical; 
-                line-height: 1.35em; 
-            }
-            .host{
-                color: $sec;
-                margin-bottom: 5px;
-                text-decoration: none;
-                svg{
-                    width: 17px;
-                    margin-left: 5px;
-                }
-            }
-            .workingOn{
-                color: $sec;
-                position: relative;
-                padding-left: 20px;
-                margin-bottom: 5px;
-                &::before{
-                    content: '';
-                    position: absolute;
-                    width: 10px;
-                    height: 10px;
-                    background-color: green;
-                    border-radius: 50%;
-                    top: 50%;
-                    left: 3px;
-                    transform: translateY(-50%);
-                }
-            }
-            .btns{
-                svg{
-                    width: 25px;
-                }
-                @media (max-width: 290px) {
-                    span{
-                        display: none !important;
-                    }
-                }
-            }
-            .company{
-                color: $sec;
-                margin-bottom: 5px;
-                font-weight: 600;
-            }
-            .timeBound{
-                color: $sec;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                margin-bottom: 5px;
-                font-weight: 500;
-            }
-            @media (max-width: 340px) {
-                .timeBound{
-                    flex-direction: column;
-                    align-items: flex-start;
-                }
-            }
-        }
-        .box.experience{
-            justify-content: space-between;
-            .title{
-                flex: 0 0 auto;
-                margin-bottom: 5px;
-            }
-            p{
-                flex: 1 1 auto;
-                max-height: 12 * 1.2em !important;
-                -webkit-line-clamp: 12 !important; 
-            }
-        }
-    }
-}
-
-.popMsg{
-    position: fixed;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -80%);
-    padding: 10px;
+  }
+  span {
+    padding-left: 8px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  &:hover {
     background-color: $sec;
-    box-shadow: 0px 0px 15px $main;
-    color: white;
-    border-radius: 5px;
+    color: $main;
+    svg {
+      fill: $main !important;
+    }
+  }
 }
 
-.disable{
-    pointer-events: none !important;
-    border-color: $sec50;
-    color: $sec50;
+.boxesSection {
+  height: fit-content !important;
+  width: 100%;
+  .boxesContainer {
+    padding: 5px !important;
+    .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+      height: 100%;
+      border: 1px solid $sec;
+      border-radius: $borderRadius2;
+      padding: 12px;
+      img {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 8px;
+        border: 1px solid $sec;
+        border-radius: $borderRadius2;
+      }
+      .title {
+        color: $white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        font-weight: 800;
+        border-bottom: 1px solid $sec;
+      }
+      p {
+        color: $white50;
+        width: 100%;
+        font-weight: 300;
+        overflow: hidden;
+        white-space: normal;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        line-height: 1.35em;
+      }
+      .host {
+        color: $sec;
+        margin-bottom: 5px;
+        text-decoration: none;
+        svg {
+          width: 17px;
+          margin-left: 5px;
+        }
+      }
+      .workingOn {
+        color: $sec;
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 5px;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background-color: green;
+          border-radius: 50%;
+          top: 50%;
+          left: 3px;
+          transform: translateY(-50%);
+        }
+      }
+      .btns {
+        svg {
+          width: 25px;
+        }
+        @media (max-width: 290px) {
+          span {
+            display: none !important;
+          }
+        }
+      }
+      .company {
+        color: $sec;
+        margin-bottom: 5px;
+        font-weight: 600;
+      }
+      .timeBound {
+        color: $sec;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+      @media (max-width: 340px) {
+        .timeBound {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    }
+    .box.experience {
+      justify-content: space-between;
+      .title {
+        flex: 0 0 auto;
+        margin-bottom: 5px;
+      }
+      p {
+        flex: 1 1 auto;
+        max-height: 12 * 1.2em !important;
+        -webkit-line-clamp: 12 !important;
+      }
+    }
+  }
 }
 
-.globalBtn{
-    background-color: $main;
+.popMsg {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  padding: 10px;
+  background-color: $sec;
+  box-shadow: 0px 0px 15px $main;
+  color: white;
+  border-radius: 5px;
+}
 
+.disable {
+  pointer-events: none !important;
+  border-color: $sec50;
+  color: $sec50;
+}
+
+.globalBtn {
+  background-color: $main;
 }

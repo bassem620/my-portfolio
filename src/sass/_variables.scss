@@ -1,11 +1,17 @@
-$main : #091116;
-$sec : #3a99e1;
-$white : hsl(0, 0%, 100%); 
-$main50 : #192e3b;
-$sec50: rgba($color: $sec, $alpha: 0.3);
+$main: #091116;
+$sec: #3a99e1;
+$white: hsl(0, 0%, 100%);
+$main50: #192e3b;
+$sec50: rgba(
+  $color: $sec,
+  $alpha: 0.3
+);
 $white50: rgba(255, 255, 255, 0.6);
 $grey: grey;
-$grey25: rgba($color: grey, $alpha: 0.25);
+$grey25: rgba(
+  $color: grey,
+  $alpha: 0.25
+);
 
 $navHeight: 70px;
 $footerHeight: 65px;
